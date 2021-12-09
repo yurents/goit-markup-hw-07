@@ -40,13 +40,14 @@
   justify-content: center;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #000000;
+  &:hover {
+    color: var(--accent-color);
+  }
 }
 .modal-close-icon {
   fill: currentColor;
 }
-.modal-close:hover {
-  color: var(--accent-color);
-}
+
 .is-hidden {
   visibility: hidden;
   opacity: 0;
@@ -85,12 +86,12 @@
   outline: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--main-text-color);
-}
-.modal-form-input:focus {
-  border-color: var(--accent-color);
-}
-.modal-form-input:focus + .input-icon {
-  fill: var(--accent-color);
+  &:focus {
+    border-color: var(--accent-color);
+  }
+  &:focus + .input-icon {
+    fill: var(--accent-color);
+  }
 }
 
 .modal-form-text {
@@ -143,9 +144,11 @@
 .check-icon {
   fill: #ffffff;
 }
-.modal-check:checked + .check-text .check-item {
-  background-color: var(--accent-color);
-  border: none;
+.modal-check:checked + .check-text {
+  .check-item {
+    background-color: var(--accent-color);
+    border: none;
+  }
 }
 
 .modal-btn {

@@ -8,22 +8,21 @@
   border-style: none;
   background: #f5f4fa;
   border-radius: 4px;
-
   padding: 6px 22px;
   border-width: 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--header-text-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: #ffffff;
+  }
 }
 .btn-item {
   fill: currentColor;
 }
 
-.btn-item:hover,
-.btn-item:focus {
-  background-color: var(--accent-color);
-  color: #ffffff;
-}
 .filters-list {
   display: flex;
   justify-content: center;

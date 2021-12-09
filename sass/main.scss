@@ -1,3 +1,15 @@
+@import "./utils/vars";
+@import "./base/common";
+@import "./base/reset";
+
+@import "./utils/hiden";
+
+@import "./components/btn";
+@import "./components/container";
+@import "./components/logo";
+@import "./components/modal";
+@import "./components/sections-title";
+
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/hero-clients";
@@ -7,15 +19,3 @@
 @import "./layout/footer";
 @import "./layout/portfolio-navigations";
 @import "./layout/portfolio-projects";
-
-@import "./components/btn";
-@import "./components/container";
-@import "./components/logo";
-@import "./components/modal";
-@import "./components/sections-title";
-
-@import "./utils/hiden";
-@import "./utils/vars";
-
-@import "./base/common";
-@import "./base/reset";

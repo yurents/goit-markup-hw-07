@@ -1,11 +1,12 @@
 .hero-image-list {
   display: flex;
 }
-.hero-image:not(:last-child) {
-  margin-right: 30px;
-}
+
 .hero-image {
   position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .hero-item-text {
   position: absolute;

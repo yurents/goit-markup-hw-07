@@ -61,12 +61,12 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #afb1b8;
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+    color: #ffffff;
+  }
 }
 .team-social-icon {
   fill: currentColor;
-}
-.team-social-link:hover,
-.team-social-link:focus {
-  background-color: #2196f3;
-  color: #ffffff;
 }
