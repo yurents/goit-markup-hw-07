@@ -1,4 +1,4 @@
-.team-names {
+.employee-list__name {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -8,7 +8,7 @@
   color: var(--second-title-color);
 }
 
-.team-proffesion {
+.employee-list__proffesion {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -26,7 +26,7 @@
   flex-wrap: wrap;
   margin-left: -30px;
 }
-.team-item {
+.employee-list__item {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   background: #ffffff;
@@ -34,23 +34,23 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-names-profession {
+.employee-list__names-professions {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.team-social-list {
+.social-media-list {
   display: flex;
   justify-content: center;
 }
 
-.team-social-item {
+.social-media-list__item {
   width: 44px;
   height: 44px;
 }
-.team-social-item + .team-social-item {
+.social-media-list__item + .social-media-list__item {
   margin-left: 10px;
 }
-.team-social-link {
+.social-media-list__link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -67,6 +67,6 @@
     color: #ffffff;
   }
 }
-.team-social-icon {
+.social-media-list__icon {
   fill: currentColor;
 }
