@@ -1,4 +1,4 @@
-.btn-item {
+.filters-button__btn-item {
   font-family: inherit;
   cursor: pointer;
   font-weight: 500;
@@ -19,15 +19,15 @@
     color: #ffffff;
   }
 }
-.btn-item {
+.filters-button__btn-item {
   fill: currentColor;
 }
 
-.filters-list {
+.filters-button__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-.filters-item:not(:last-child) {
+.filters-button__item:not(:last-child) {
   margin-right: 8px;
 }

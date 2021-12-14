@@ -8,13 +8,13 @@
   align-items: baseline;
 }
 
-.footer-logo {
+.footer__logo--color-blue {
   color: #2196f3;
 }
-.footer-web-logo {
+.footer__logo--color-white {
   color: var(--main-title-color);
 }
-.footer-adress {
+.footer-adress-list__adress {
   font-style: normal;
   font-family: inherit;
   font-size: 14px;
@@ -26,7 +26,7 @@
   margin-right: 70px;
 }
 
-.footer-mail {
+.footer-adress-list__mail {
   display: block;
   margin-bottom: 9px;
   font-style: normal;
@@ -42,7 +42,7 @@
   }
 }
 
-.footer-tel {
+.footer-adress-list__tel {
   font-style: normal;
   font-family: inherit;
   font-size: 14px;
@@ -56,14 +56,14 @@
   }
 }
 
-.adress-list {
+.footer-adress-list__list {
   display: block;
 }
-.footer-item {
+.footer-adress-list__item {
   margin-top: 20px;
   margin-bottom: 9px;
 }
-.footer-link-title {
+.footer-link__title {
   font-family: Roboto;
   margin-bottom: 20px;
   font-style: normal;
@@ -74,19 +74,19 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.footer-adress-list {
+.footer-media-list {
   display: flex;
   justify-content: center;
 }
 
-.footer-adress-item {
+.footer-media-list__item {
   width: 44px;
   height: 44px;
 }
-.footer-adress-item + .footer-adress-item {
+.footer-media-list__item + .footer-media-list__item {
   margin-left: 10px;
 }
-.footer-adress-link {
+.footer-media-list__link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -103,16 +103,16 @@
     color: #ffffff;
   }
 }
-.footer-adress-icon {
+.footer-media-list__icon--color-current {
   fill: currentColor;
 }
 .subscribe-container {
   margin-left: 93px;
 }
-.subscribe-form {
+.footer-subscribe__form {
   display: flex;
 }
-.subscribe-title {
+.footer-subscribe__title {
   font-family: Roboto;
   margin-bottom: 20px;
   font-style: normal;
@@ -123,7 +123,7 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.subscribe-form-input {
+.footer-subscribe__form-input {
   width: 358px;
   height: 50px;
   margin-right: 12px;
@@ -155,12 +155,12 @@
   }
 }
 
-.subscribe-btn {
+.footer-subscribe__btn {
   display: flex;
   margin: 0 auto;
   align-items: center;
   justify-content: center;
 }
-.subscribe-btn-icon {
+.footer-subscribe__btn-icon {
   margin-left: 10px;
 }

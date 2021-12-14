@@ -1,4 +1,4 @@
-.project-name {
+.card-set__name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -6,7 +6,7 @@
   color: var(--second-title-color);
 }
 
-.project-description {
+.card-set__description {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -19,7 +19,7 @@
   margin-left: -30px;
   margin-bottom: -30px;
 }
-.project-item {
+.card-set__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
@@ -29,14 +29,14 @@
   box-sizing: border-box;
 }
 
-.project-titles {
+.card-set__titles {
   padding: 20px 24px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project-link {
+.card-set__link {
   display: block;
   &:hover,
   &:focus {
@@ -45,11 +45,11 @@
   }
 }
 
-.project-item-wrap {
+.card-set__item-wrap {
   position: relative;
   overflow: hidden;
 }
-.project-top-text {
+.card-set__top-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -62,7 +62,7 @@
   height: 100%;
   transform: translateY(100%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .project-item:hover & {
+  .card-set__item:hover & {
     transform: translateY(0);
   }
 }
