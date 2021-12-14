@@ -1,10 +1,7 @@
 .filters-button__btn-item {
   font-family: inherit;
   cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
+  @include font(500, 16px, 1.62, 0.03em);
   border-style: none;
   background: #f5f4fa;
   border-radius: 4px;
@@ -24,8 +21,7 @@
 }
 
 .filters-button__list {
-  display: flex;
-  justify-content: center;
+  @include flex-center(center, center, center);
   margin-bottom: 50px;
 }
 .filters-button__item:not(:last-child) {
