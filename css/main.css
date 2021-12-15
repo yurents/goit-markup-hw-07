@@ -830,6 +830,10 @@ img {
   margin-left: 10px;
 }
 
+.portfolio-hero {
+  background-color: #ffffff;
+}
+
 .filters-button__btn-item {
   font-family: inherit;
   cursor: pointer;
